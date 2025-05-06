@@ -886,11 +886,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:^22.15.3":
-  version: 22.15.3
-  resolution: "@types/node@npm:22.15.3"
+  version: 22.15.11
+  resolution: "@types/node@npm:22.15.11"
   dependencies:
     undici-types: ~6.21.0
-  checksum: 26618a9fdfb84de3841e898b7c5fd372e1c0bdb9adc3ec71c12c38dd07d4e73da14681924919d27ff509ebf3714b8de941a21f51c26146cc8aaae31561ca7a5c
+  checksum: dc6ba95a21d8312402adcecfe48c49ec8732e3c967ddf3386f16742e7773844ffecf0882e12273c60fc5476ef010ab1adae87f309cfcac53c4a636f13416c72e
   languageName: node
   linkType: hard
 
@@ -1428,9 +1428,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.149":
-  version: 1.5.149
-  resolution: "electron-to-chromium@npm:1.5.149"
-  checksum: 7f91d8293a48fab7dabb15c4569f8704e56320ccf7039f71134f03d601bada089393852e257cf7639233fc3fd2a558664ccca9e530287d40f94d64d107f3acab
+  version: 1.5.150
+  resolution: "electron-to-chromium@npm:1.5.150"
+  checksum: 0d0dd1e045f293b4c2598910734ddc7a1ccd5bba1bd7f3319242e531e7f4d9f87f3a667593f49ec0d36662b50933efb76b7addf952c90f95cae18bb3b01327e5
   languageName: node
   linkType: hard
 
@@ -2594,6 +2594,8 @@ __metadata:
     ts-jest: ^29.1.1
     ts-node: ^10.9.2
     typescript: ^5.8.3
+  bin:
+    md-to-mdc: ./build/md-to-mdc.js
   languageName: unknown
   linkType: soft
 

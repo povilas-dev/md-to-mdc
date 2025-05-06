@@ -4,6 +4,7 @@
   "description": "Convert markdown files to mdc files",
   "main": "index.js",
   "type": "module",
+  "bin": "./build/md-to-mdc.js",
   "scripts": {
     "convert": "node ./build/md-to-mdc.js",
     "build": "tsc",
