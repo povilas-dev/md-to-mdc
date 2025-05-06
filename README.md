@@ -1,5 +1,5 @@
 # md-to-mdc
-Script for generating .mdc out of .md docs.
+Script for generating Cursor rules .md docs.
 
 # Example usage:
 
